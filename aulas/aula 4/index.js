@@ -39,5 +39,6 @@ const idadeNumero2 = Number (idadeTexto2)
 console.log(typeof idadeTexto2) 
 console.log(trypeof idadeNumero2)
 
+ 
 
 
