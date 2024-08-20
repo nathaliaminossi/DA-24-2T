@@ -105,7 +105,7 @@ const numero1 = 4
 const numero2 = 8
 
 console.log("o primeiro numero é diferente do segundo?",numero1===numero2)
-*/
+/*
 const numero1 = 4 
 const numero2 = 8
 
@@ -116,6 +116,11 @@ const numero2 = 8
 
 console.log("o primeiro numero é menor que o segundo?",numero1=== numero2)
 
+/*
+let resultado = 100
+resultado = resultado + 10
+console.log(resultado)
+*/
 
 
 
