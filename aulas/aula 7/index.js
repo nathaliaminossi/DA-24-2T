@@ -93,8 +93,7 @@ console.log("é maior de idade?", maiorIdade)
 const diferencaAno = 2050 - anoAtual
 console.log("idade em 2050:", idade + diferencaAno)
 
-*/
-
+/*
 const bool1 = true
 const bool2 = false
 const bool3 = !bool2
@@ -111,6 +110,43 @@ console.log("c. ", resultado)
 
 console.log("d. ", typeof resultado) //boolean
 
+*/
+/*
+let primeiroNumero = Number(prompt("Digite um numero!"))
+let segundoNumero = Number(prompt("Digite outro numero!"))
+
+const soma = (primeiroNumero + segundoNumero)
+
+console.log(soma)
+
+*/
+/*
+const idadeUsuario = Number(prompt("Sua idade?"))
+const idadeAmigo = Number(prompt("idade do melhor amigo?"))
+
+/*let resultado = idadeUsuario > idadeAmigo
+
+console.log("Sua idade é maior que a do seu melhor amigo?",resultado)
+
+let resultado = idadeUsuario-idadeAmigo
+console.log(idadeUsuario-idadeAmigo)
+
+*/
+/*
+const nPar = Number(prompt("Digite um numero"))
+console.log(nPar%2) //sim, o numero sempre é 0 
+*/
+/*
+const idade = Number(prompt("Sua idade?"))
+const resultado = idade * 12 
+console.log("Sua idade em meses é:",resultado) //minha idade em meses é 192
+
+let resultado1 = idade * 365
+console.log("Sua idade em dias é:",resultado1) //minha idade em dias é 5840
+
+resultado1 *=24 
+console.log(resultado1) //140160
+*/
 
 
 
@@ -121,14 +157,6 @@ console.log("d. ", typeof resultado) //boolean
 
 
 
-
-
-
-
-
-
-
-)
 
 
 
