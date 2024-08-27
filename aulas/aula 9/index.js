@@ -41,17 +41,20 @@ console.log(comidasPreferidas[2])
 console.log(comidasPreferidas[3])
 console.log(comidasPreferidas[4])
 */
-
+/*
 let listaDeTarefas = []
-let tarefas = prompt("qual tarefa voce precisa realizar?")
-listaDeTarefas.push(tarefas)
+let tarefas = prompt("digite a tarefa")
+listaDeTarefas.push(tarefas1)
+let indice = Number(prompt("digite o numero de tarefa realizada"))
 
 
 console.log(listaDeTarefas)
 
 let indice = prompt("digite o indice de tarefas que voce ja realizou: 0,1 ou 2")
 console.log(indice, 0,1) 
+*/
 
-console.log("tarefa removida com sucesso")
+
+
 
 
