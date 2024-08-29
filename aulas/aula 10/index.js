@@ -170,6 +170,7 @@ console.log("a condicao1 é falsa")
 
 }
 */
+/*
 let condicao1 
 
 let ensinoMedio = prompt("voce concluiu o ensino medio?")
@@ -193,7 +194,7 @@ console.log("Voce pode estudar nessa faculdade.")
     console.log("voce nao pode estudar nessa faculdade.")
 
 }
-
+*/
 
 
 
