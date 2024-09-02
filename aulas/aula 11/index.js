@@ -119,10 +119,10 @@ console.log("Bom filme! aproveite seu 'doce'.")
 
 }
 */
-
+/*
 
 const nomeCompleto = prompt("digite seu nome completo:")
 const tipoDeJogo = prompt("digite seu tipo de jogo:, SF semi-final; DT decisão de terceiro lugar e FI final")
-
+*/
 
 
