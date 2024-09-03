@@ -95,8 +95,7 @@ console.log("a soma dos numeros pares é:", soma)
 */
 
 
-const palavrasMaisLongas = [ ]
-const 
+ 
 
 
 
