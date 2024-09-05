@@ -57,9 +57,7 @@ console.log("o maior numero é 18")
 */
 /*
 let soma = 0 
-let numeros = [11, 15, 18 14, 12, 13]
-for(let i=0; i<6;i++){
-    if(numeor[i]%2 === 0){
+let numeros = [11, 15, 18 14, 12, 13]let numero = Number(prompt("digite cinco numeros:"))
 soma += numeros[i]
 console.log(soma)
     }

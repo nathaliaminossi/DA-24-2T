@@ -63,7 +63,7 @@ console.log("Que pena! voce pode adotar um bichinho.")
 console.log(`os nomes dos seus bichinhos de estimacao sao: ${bichinhos}`)
 
 */
-
+/*
 let arrayOriginal = [11,12,13,14,15,16]
 for(let N = 0; N < arrayOriginal.length; N++){
 console.log(arrayOriginal[N])
@@ -72,11 +72,12 @@ for(let N = 0; N < arrayOriginal.length; N++){
 console.log(arrayOriginal[i]/10)
 
 }
-
-
-
-
-
+*/
+/*
+let arrayPares = []
+for(let numero of arrayOriginal){if(numero%2===0){arrayPares.push(numero)}}
+console.log(arrayPares)
+*/
 
 
 
