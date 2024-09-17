@@ -39,7 +39,7 @@ for(let n=0; n<=0; n++){
 let media = somaNotas/5
 }
 console.log("a media das notas é:", media/5)
-*/
+
 let jogoForca = ["m","a","r"]
 let palavraSecreta = []
 for(let mar of jogoForca){
@@ -49,7 +49,7 @@ console.log(palavraSecreta)
 
 let letra = prompt("digite uma letra:")
 
-
+*/
 
 
 

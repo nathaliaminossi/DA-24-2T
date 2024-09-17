@@ -77,13 +77,54 @@ function informacoesPessoais(){
 
 informacoesPessoais()
 */
+/*
 function somarNumeros(a, b){
 return a + b
 
 }
 const resultado = somarNumeros(7, 20)
 console.log(resultado)
+*/
+// numeros inseridos 30 e 3
+// soma: 33
+// diferenca: 27
+// multiplicacao: 90
+// 10
+
+let numeros = prompt("insira dois numero:")
+
+function somarNumeros(a, b){
+return a + b
 
 
+}
+
+function multiplicarNumeros(a, b){
+return a * b
 
 
+}
+
+function dividirNumeros(a, b){
+return a / b
+
+
+}
+ 
+function diminuirNumeros(a, b){
+
+return a - b
+
+}
+
+const resultado = somarNumeros(5,10)
+console.log(resultado)
+
+
+const resultado2 = multiplicarNumeros(5,10)
+console.log(resultado2)
+
+const resultado3 = dividirNumeros(5,10)
+console.log(resultado3)
+
+const resultado4 = 
