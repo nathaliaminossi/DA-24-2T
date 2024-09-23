@@ -133,8 +133,7 @@ comprarFrutas(morango2)
 comprarFrutas(banana3)
 
 console.log(carrinho)
-*/
-
+*
 function usuario() {
 
     const nome = prompt("Qual seu nome?")
@@ -150,3 +149,25 @@ function usuario() {
     console.log(typeof(objeto))
 }
 usuario()
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -90,7 +90,7 @@ console.log(resultado)
 // diferenca: 27
 // multiplicacao: 90
 // 10
-
+/*
 let numeros = prompt("insira dois numero:")
 
 function somarNumeros(a, b){
@@ -128,3 +128,4 @@ const resultado3 = dividirNumeros(5,10)
 console.log(resultado3)
 
 const resultado4 = 
+*/

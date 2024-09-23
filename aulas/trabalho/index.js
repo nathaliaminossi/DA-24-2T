@@ -1,0 +1,119 @@
+
+
+
+
+let arrayPersonagens = [];
+function criarPersonagem() {
+    let setPersonagem = prompt('digite o nome do personagem: ')
+    let setClasse = prompt('digite a classe: ')
+    let setNivel = Number(prompt('digite o nivel: '))
+    let setHp = Number(prompt('digite o hp do personagem: '))
+    let setHabilidade = prompt('digite a habilidade: ')
+    let personagem = {
+        nome: setPersonagem,
+        clase: setClasse,
+        nivel: setNivel,
+        hp: setHp,
+        habilidade: setHabilidade,
+        historico: []
+    };
+    arrayPersonagens.push(personagem);
+};
+//primeiro criaremos um array vazio para armazenar objetos que irá representar personagens
+//usamos prompt pra coloetar dados e adicionamos no arrayPersonagens.push
+
+function atacar() {
+    let personagematk = prompt('nome do personagem que vai atacar: ')
+    let personagemdf = prompt('nome do personagem que vai ser atacado: ')
+    personagematk = buscar(personagematk)
+    personagemdf = buscar(personagemdf)
+    if (personagematk && personagemdf !== false) {
+        personagemdf.hp -= personagematk.nivel * 5
+        console.log('o personagem ', personagematk.nome, 'atacou o personagem', personagemdf.nome)
+        personagematk.historico.push('o personagem ', personagematk.nome, 'atacou o personagem', personagemdf.nome)
+        personagemdf.historico.push('o personagem ', personagemdf.nome, 'foi atacado pelo personagem', personagematk.nome)
+        if (personagemdf.hp <= 0) {
+            console.log(personagemdf.nome, ' morreu')
+        } else {
+            console.log(personagemdf.nome, ' ainda tem', personagemdf.hp)
+        }
+    } else {
+        console.log('um ou mais personagems nao encontrado');
+    }
+}
+// o objeto vai realizar um ataque de um personagem ao outro
+// buscamos os personagens usando a funcao buscar
+//se forem encontrados o HP do defensor é reduzido pelo atacante e depois verificamos se o defensor morreu (HP<=0)
+function buscarPrompt(){
+    let busca = prompt('nome do personagem que vai ser buscado')
+    buscar(busca)
+}
+function verificarPersonagem(){
+    let busca = prompt('nome do personagem que gostaria de ver: ')
+    buscar(busca)
+}
+function buscar(nomeBusca) {
+
+    for (let i = 0; i < arrayPersonagens.length; i++) {
+        if (nomeBusca == arrayPersonagens[i].nome) {
+            console.log(arrayPersonagens[i])
+            return arrayPersonagens[i]
+        } else if (i == arrayPersonagens.length - 1) {
+            console.log('nome nao achado ')
+            return false
+        }
+    }
+}
+//buscar procura um personagem pelo arrayPersonagens e retorna o objeto encontrado
+//buscar prompt pede ao usuario o nome de um personagem e o busca
+//verificarPersonagem pede ao usuario um nome e exibe os dados do personagem correspondente
+function removerPersonagem(nomeParaRemover) {
+    for (let i = 0; i < arrayPersonagens.length; i++) {
+        if (nomeParaRemover == arrayPersonagens[i].nome) {
+            arrayPersonagens.splice(i, 1)
+            console.log('personagem removido')
+            break
+        } else if (i == arrayPersonagens.length - 1) {
+            console.log('nome nao achado ')
+        }
+    }
+}
+// removerPersonagem remove um personagem do array pelo nome 
+//se encontrar o nome, usa splice para remove-lo
+function ordem(){
+arrayPersonagens.sort((a, b) => a.nome.localeCompare(b.nome))
+//deixa o array em ordem alfabetica
+// usa localeCompare para comparacao de strings 
+}
+
+criarPersonagem()
+criarPersonagem()
+atacar()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
