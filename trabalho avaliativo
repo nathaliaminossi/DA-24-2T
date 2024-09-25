@@ -106,7 +106,7 @@ switch(option){
         atacar()
         break
     case 3:
-        buscarPronpt()
+        buscarPrompt()
         break
     case 4: 
         ordem()
