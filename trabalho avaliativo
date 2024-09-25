@@ -83,7 +83,30 @@ arrayPersonagens.sort((a, b) => a.nome.localeCompare(b.nome))
 //deixa o array em ordem alfabetica
 // usa localeCompare para comparacao de strings 
 }
+let option = prompt('Escolha:')
 
+switch(option){
+    case 1: 
+    criarPersonagem()
+        break
+    case 2:
+        atacar()
+        break
+    case 3:
+        buscarPrompt()
+        break
+    case 4: 
+        ordem()
+        break
+    case 5:
+        removerPersonagem()
+        break
+    case 0:
+        process.exit(0)
+    default:
+        console.log('Opcao invalida');
+        break
+}
 criarPersonagem()
 criarPersonagem()
 atacar()
